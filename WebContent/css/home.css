@@ -1,0 +1,137 @@
+#header
+{
+  padding-left: 2px;
+  width:100%;
+  height:100px;
+  border:red 1px solid;
+
+}
+
+#left
+{
+  margin: 0;
+  padding: 0;
+  float:left;
+  width:19%;
+  border: green 1px solid;
+}
+#main
+{
+
+  float: left;
+  width:79%;
+  /*height: 450px;*/
+  border: black 1px solid;
+  background-color: white;
+}
+#footer
+{
+
+  margin:0;
+  padding:0;
+  float:left;
+  width: 100%;
+  height: 50px;
+  border: blue 1px solid;
+  text-align:center;
+}
+.nav{
+  clear:both;
+}
+.navitem
+{
+text-decoration: none;
+float:left;
+width: 100px;
+height: 40px;
+background-color: white;
+border: 1px solid black;
+}
+.navitem a {
+  text-decoration: none;
+  color:red;
+}
+.navitem:hover
+{
+  background-color: gray;
+}
+.leftnav li {
+  display: block;
+  background-color: white;
+
+}
+.leftnav: li a {
+  text-decoration: none;
+  color:red;
+}
+.leftnav li:hover{
+  background-color: gray;
+}
+.calendarTable {
+	border:1px solid black;
+}
+.calendarTable td {
+	border:1px solid black;
+}
+.calendarTable img{
+	width:50px;
+}
+
+#bigImage {
+	width:500px;
+	
+}
+
+@keyframes example {
+    from {
+    	background-color:red;
+    	width:250px;
+    	height:250px;
+    	}
+    to {
+    	background-color: blue;
+    	width:100px;
+    	height:100px;
+    	 	}
+}
+@keyframes animate1to2{
+    from {
+    	background-image:url("../images/1.jpg");
+    	
+    	}
+    to {
+    	background-image:url("../images/1.jpg");
+    	
+    	}
+}
+
+@keyframes slideout{
+0% 
+}
+
+#animatedDiv {
+	width:250px;
+	height:250px;
+	background-color:red;
+	animation-name: example;
+	animation-duration: 10s;
+}
+
+#animatedDiv:hover {
+	animation-name: example;
+	animation-duration: 10s;
+	animation-iteration-count:infinite;
+}
+#pictureDiv {
+	display:block;
+	background-image: url("../images/1.jpg");
+	width:250px;
+	height:250px;
+	
+}
+
+#pictureDiv:hover{ 
+	animation:animate1to2;
+	animation:duration:2500ms;	
+}
+	
